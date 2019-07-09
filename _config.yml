@@ -24,6 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://verysmalldreams.com" # the base hostname & protocol for your site
 twitter_username: mjaquiery
 github_username:  mjaquiery
+google_analytics: UA-143565521-1
 
 # Build settings
 markdown: kramdown
