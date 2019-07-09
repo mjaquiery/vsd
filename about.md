@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Matt Jaquiery 
 
-I am a **DPhil candidate in Experimental Psychology** at the [University of Oxford](https://ox.ac.uk), working with Nick Yeung at the [ACC lab](https://www.oxacclab.org/). I study advice taking and decision-making using behavioural and computational methods. 
+I am a **DPhil candidate in Experimental Psychology** at the [University of Oxford](https://ox.ac.uk), working with {% include person.html name="Nick Yeung" website="https://www.oxacclab.org/nick-yeung" twitter="OxACClab" orcid="0000-0003-1905-2129" %} at the [ACC lab](https://www.oxacclab.org/). I study advice taking and decision-making using behavioural and computational methods. 
 
 I did my masters' (**MRes Neuroscience**) and **BSc (Neuroscience with Cognitive Science)** at the [University of Sussex](https://sussex.ac.uk), with empirical dissertations on aphantasia and metacognition, and a philosophical dissertation on group minds in information integration theory. 
 
