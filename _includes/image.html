@@ -1,5 +1,9 @@
 <figure class="image">
+    {%- if include.url contains '://' -%}
+    <img src="{{ include.url }}" alt="{{ include.alt }}">
+    {%- else -%}
     <img src="/assets/images/{{ include.url }}" alt="{{ include.alt }}">
+    {%- endif -%}
     <figcaption>{{ include.description }}</figcaption>
 </figure>
 <!-- Credit https://stackoverflow.com/a/19360305 -->
