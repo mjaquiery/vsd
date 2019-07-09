@@ -1,9 +1,14 @@
 <figure class="image">
-    {%- if include.url contains '://' -%}
-    <img src="{{ include.url }}" alt="{{ include.alt }}">
-    {%- else -%}
-    <img src="/assets/images/{{ include.url }}" alt="{{ include.alt }}">
-    {%- endif -%}
+    {% capture url %}{%- unless include.url contains '://' -%}/assets/images/{%- endunless -%}{{ include.url }}{% endcapture %}
+    <div class="fig">
+        <a href="{{ url }}">
+            {%- assign smallImg = url | replace: ".", "-small." -%}
+            {%- assign pieces = url | split: "." -%}
+            <object data="{{ smallImg }}" type="image/{{ pieces.last }}">
+                <img src="{{ url }}" alt="{{ include.alt }}">
+            </object>
+        </a>
+    </div>
     <figcaption>{{ include.description }}</figcaption>
 </figure>
 <!-- Credit https://stackoverflow.com/a/19360305 -->

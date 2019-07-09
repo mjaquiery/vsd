@@ -1,3 +1,4 @@
+/* Person.html */
 .person {
     position: relative;
     background-color: aliceblue;
@@ -25,8 +26,54 @@
     border-top-right-radius: 25%;
     padding-top: 1em;
     padding-bottom: 2px;
+    min-width: 6em;
 }
 
 .person-social i, .person-social svg {
     font-size: 1.2em;
+}
+
+/* Image.html */
+
+.image .fig {
+    max-width: 50%;
+    margin: auto;
+    transition: all 400ms;
+    text-align: center;
+}
+
+.image .fig:hover {
+    max-width: 100%;
+}
+
+.fig a * {
+    max-width: 100%;
+    border-radius: 1em;
+    box-shadow: 0 2px 9px 0 #636363;
+}
+
+/* Tags */
+
+.tag-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+}
+
+.tag-list li {
+    padding: .25em .5em;
+    background-color: aliceblue;
+    border-radius: .5em;
+    margin: .33em;
+    font-size: .8em;
+    box-shadow: 0 1px 3px -1px black;
+}
+
+.tag-list li:hover {
+    background-color: lightgrey;
+}
+
+.tag-list a:hover {
+    text-decoration: none;
 }
