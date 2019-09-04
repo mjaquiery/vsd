@@ -47,7 +47,15 @@ layout: default
             {%- if page.author -%}
             • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"> {{ page.author | escape }}</span></span>
             {%- endif -%}
-        <span class="post-wordCount"> | Around {{ content | number_of_words | divided_by: 100 | round | times: 100 }} words</span>
+            {% assign x = content | number_of_words | divided_by: 100 | round | times: 100 %}
+            {% if x > 0 %}
+                {% capture wordCount %}
+                Around {{ x }} words
+            {% endcapture %}
+            {% else %}
+                {% assign wordCount = "Very short" %}
+            {% endif %}
+            <span class="post-wordCount"> | {{ wordCount }}</span>
         {%- if page.category -%}
         <span class="post-category"> | <a href="/categories.html#{{ page.category }}">{{ page.category }}</a></span>
         {%- endif -%}</p>
