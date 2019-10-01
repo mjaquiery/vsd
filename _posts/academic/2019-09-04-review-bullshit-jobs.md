@@ -4,6 +4,9 @@ title:  "Review: Bullshit Jobs"
 date:   2019-09-04 10:03:37 +0100
 category: academic
 tags: [book review, psychology, anthropology, economics, bullshit, David Graeber]
+image: 
+    path: /assets/images/bullshit-jobs-small.jpg
+    height: 192
 ---
 
 # Review: Bullshit Jobs

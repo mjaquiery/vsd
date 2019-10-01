@@ -4,6 +4,9 @@ title:  "Review: Mistakes were made (but not by me!)"
 date:   2019-08-17 13:15:37 +0100
 category: academic
 tags: [book review, psychology, philosophy]
+image: 
+    path: /assets/images/mistakes-were-made-small.jpg
+    height: 192
 ---
 
 # Review: Mistakes were made (but not by me!)
