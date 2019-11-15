@@ -17,7 +17,7 @@ image:
 
 _The Gardener and the Carpenter_ is a magnificent example of philosophy grounded in science. The book aims to answer the question 'what is parenting?', and, in so doing, to explain why the anxieties about modern parenting are largely misplaced. The central theme is that each child is unique, and that the role of those caring for them is to allow the child to become a unique adult, not to shape the child into a particular kind of adult. 
 
-_Sidenote:_ I should mention that I greatly enjoyed the book: there was something worth taking note of on almost every page, which is relatively rare. As the heavy dog-earing of my copy attests, there was a great deal which was novel, contentious, important, or well-expressed (not all my underlinings or notes on dog-eared pages are complementary, but they do indicate engagement).
+_Sidenote:_ I should mention that I greatly enjoyed the book: there was something worth taking note of on almost every page, which is relatively rare. As the heavy dog-earing of my copy attests, there was a great deal which was novel, contentious, important, or well-expressed (not all my underlinings or notes on dog-eared pages are complimentary, but they do indicate engagement).
 
 {% include image.html url="the-gardener-and-the-carpenter-dog-ears.jpg" alt="Dog-eared pages on my book" description="A proxy for engagement" %}
 
