@@ -45,7 +45,7 @@
 }
 
 .image .fig:hover {
-    max-width: 100%;
+    max-width: unset;
 }
 
 .fig a * {
