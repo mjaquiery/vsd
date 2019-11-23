@@ -51,7 +51,7 @@ The group I was working with were dedicated and friendly, as were all the people
 I could probably write a whole post in the [personal](/categories.html#personal) section about the experiences, but they can be summed up pretty succinctly:
 * I met a lot of smart and dedicated people in both places
 * I find working in the same room as other people for days together exhausting[^13] and get about as much done in the few hours on my own in the evening as during the day
-* If you're arranging accommodation for people for a 3-day event which starts at 9am, you should probably extend the accommodation to cover the night before the first day, otherwise people can't travel by public transportation
+* If you're arranging accommodation for people for a 3-day event which starts at 9am, you should probably extend the accommodation to cover the night before the first day, otherwise people can't travel by public transportation. But arranging accommodation is helpful!
 * It'd be a good idea to figure out some kind of exercise opportunity to work into the event, because 3 days is a long time to go without
 * I think I made a (good?) impression on people, I certainly tried to be kind and engaged (which mostly wasn't hard), and I don't have anything which is clearly bugging me about whether I misinterpreted things or said the wrong things or any of that stuff, so I'm pretty happy about that[^14]
 * If the above is networking then I managed that. But if it's not then I'm still not quite sure what it is
