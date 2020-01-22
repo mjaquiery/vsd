@@ -34,7 +34,7 @@ Overall, the book somewhat resembles a doughnut in that there's a fair bit to ch
 ---
 ## Notes
 
-[^1]: These aspects include things given much play in the book, e.g. commons management, as well as others given less consideration here such as care work and domestic labour. These latter are explored exhaustively in Caroline Criado Perez' _Invisible Women_.
+[^1]: These aspects include things given much play in the book, e.g. commons management, as well as others given less consideration here such as care work and domestic labour. These latter are explored exhaustively in Caroline Criado Perez' [_Invisible Women_]({% link _posts/review/2020-01-22-invisible-women.md %}).
 
 [^2]: The ever-present debate over the population cap for the planet (and in particular whether we're at or near it) can be cast as a discussion over the width of the doughnut's ring, and how that width changes as a function of population.
 
