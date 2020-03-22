@@ -9,7 +9,7 @@ image:
     height: 192
 ---
 
-# Talking to My Daughter
+# Review: Talking to My Daughter
 #### A Brief History of Capitalism
 ##### Yanis Varoufakis (2017)
 

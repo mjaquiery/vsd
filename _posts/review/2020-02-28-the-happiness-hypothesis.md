@@ -9,7 +9,7 @@ image:
     height: 192
 ---
 
-# The Happiness Hypothesis
+# Review: The Happiness Hypothesis
 #### Putting Ancient Wisdom and Philosophy to the Test of Modern Science
 ##### Jonathan Haidt (2006)
 
