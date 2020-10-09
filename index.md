@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Welcome to VerySmallDreams.com.* This is a blog written by [Matt Jaquiery]({{ "/about" | relative_url }}), covering various aspects of cognitive science and the science and philosophy of consciousness. Some personal posts may make it in on occassion. 
+Welcome to VerySmallDreams.com.* This is a blog written by {% include person.html name="Matt Jaquiery" website="/about/" twitter="mjaquiery" orcid="0000-0003-3599-1580" %}, covering various aspects of cognitive science and the science and philosophy of consciousness. Some personal posts may make it in on occassion. 
 
 This blog is unlikely to see frequent (or brilliant) updates, but I'll do my best. 
 

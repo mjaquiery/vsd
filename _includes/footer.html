@@ -3,11 +3,10 @@
 
     <div class="wrapper">
 
-        <h2 class="footer-heading">Very Small Dreams</h2>
-
         <div class="footer-col-wrapper">
+
             <div class="footer-col footer-col-1">
-                <h2 class="footer-heading">{{ site.title | escape }}</h2>
+                <h2 class="footer-heading"><a href="/">{{ site.title | escape }}</a></h2>
                 <ul class="contact-list">
                     <li class="p-name">
                         {%- if site.author -%}
@@ -28,6 +27,11 @@
             </div>
 
             <div class="footer-col footer-col-3">
+
+                <!-- Subscribe form -->
+                <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=VerySmallDreams', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p><input type="email" style="width:140px" name="email" placeholder="Enter your email"/><input type="hidden" value="VerySmallDreams" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /> via <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p></form>
+                <!-- /Subscribe form -->
+
                 <p>{{- site.description | escape -}}</p>
             </div>
         </div>
