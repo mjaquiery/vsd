@@ -16,18 +16,30 @@ So if there are any posts in the future, they'll probably be about software engi
 A problem I've just got my head around with TypeScript is contravariance.
 What is contravariance?
 Well, it's responsible for errors like this: 
+
 >Type '(x: string) => string' is not assignable to type '(x: string|number) => void'.
+>
 >  Types of parameters 'x' and 'x' are incompatible.
+> 
 >    Type 'string|number' is not assignable to type 'string'.
 
-I found it baffling that TypeScript would complain about "string|number" not being assignable to "string".
+I found it baffling that TypeScript would complain about `string|number` not being assignable to `string`.
 In my head, I'm doing exactly the _opposite_: I'm assigning a more specific type to a more general type.
 The reason? Contravariance.
 
 ## Technical explanation
 
 Contravariance is a rule that enforces that a function's input type must be a supertype of the input type of the function it's being assigned to.
-In other words, whereas variables are covariant (a variable of type `A` can be assigned to a variable of type `A|B`, but not vice-versa), 
+It's a result of the [Liskov Substitution Principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle), which is one of the [SOLID principles](https://en.wikipedia.org/wiki/SOLID).
+The Liskov Substitution Principle states that an object should be replaceable with any of its subtypes without breaking the program.
+
+Here, TypeScript is saying that a function that takes a `string|number` as an argument can't be replaced with a function that takes a `string` as an argument.
+That's because if we replace the function that takes a `string|number` with a function that takes a `string`, we can't guarantee that the function will work with a `number` argument.
+We often run into headaches because we're narrowing a function for a specific use-case, just as we would a variable, but TypeScript doesn't _know_ we'll only ever use it with a `string`.
+And, for that matter, nor do we or our colleagues or our future selves.
+That's why TypeScript has all these rules in the first place.
+
+In short, whereas variables are covariant (a variable of type `A` can be assigned to a variable of type `A|B`, but not vice-versa),
 functions are contravariant (a function of type `A|B` can be assigned to a function of type `A`, but not vice-versa).
 
 ## Example
